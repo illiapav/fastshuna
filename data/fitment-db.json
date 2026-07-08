@@ -1,46 +1,1992 @@
 [
-  {"id":"vw-golf-v-1k","make":"Volkswagen","model":"Golf","generation":"V (1K)","year_from":2003,"year_to":2009,"vehicle_type":"cars","factory_tire_sizes":["195/65 R15","205/55 R16"],"optional_tire_sizes":["225/45 R17","225/40 R18"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"45-50","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-golf-vi-5k","make":"Volkswagen","model":"Golf","generation":"VI (5K)","year_from":2008,"year_to":2012,"vehicle_type":"cars","factory_tire_sizes":["195/65 R15","205/55 R16"],"optional_tire_sizes":["225/45 R17","225/40 R18"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"45-50","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-golf-vii-5g","make":"Volkswagen","model":"Golf","generation":"VII (5G)","year_from":2012,"year_to":2020,"vehicle_type":"cars","factory_tire_sizes":["195/65 R15","205/55 R16","225/45 R17"],"optional_tire_sizes":["225/40 R18","225/35 R19"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"45-51","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-golf-viii-cd","make":"Volkswagen","model":"Golf","generation":"VIII (CD)","year_from":2019,"year_to":2026,"vehicle_type":"cars","factory_tire_sizes":["205/55 R16","225/45 R17"],"optional_tire_sizes":["205/50 R17","225/40 R18","235/35 R19"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"45-50","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-passat-b6-3c","make":"Volkswagen","model":"Passat","generation":"B6 (3C)","year_from":2005,"year_to":2010,"vehicle_type":"cars","factory_tire_sizes":["205/55 R16","215/55 R16"],"optional_tire_sizes":["235/45 R17","235/40 R18"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"42-45","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-passat-b7-36","make":"Volkswagen","model":"Passat","generation":"B7 (36)","year_from":2010,"year_to":2015,"vehicle_type":"cars","factory_tire_sizes":["205/55 R16","215/55 R16"],"optional_tire_sizes":["205/50 R17","235/45 R17","235/40 R18"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"42-47","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-passat-b8-3g","make":"Volkswagen","model":"Passat","generation":"B8 (3G)","year_from":2014,"year_to":2019,"vehicle_type":"cars","factory_tire_sizes":["215/60 R16","215/55 R17"],"optional_tire_sizes":["235/45 R18","235/40 R19"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"40-48","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-polo-5-6r6c","make":"Volkswagen","model":"Polo","generation":"Mk5 (6R/6C)","year_from":2009,"year_to":2017,"vehicle_type":"cars","factory_tire_sizes":["185/70 R14","185/60 R15"],"optional_tire_sizes":["195/55 R16","215/45 R16","215/40 R17"],"wheel":{"pcd":"5x100","center_bore":"57.1","et":"35-44","bolt_thread":"M14x1.5"},"verify_required":true},
-  {"id":"vw-polo-6-aw","make":"Volkswagen","model":"Polo","generation":"Mk6 (AW)","year_from":2017,"year_to":2026,"vehicle_type":"cars","factory_tire_sizes":["185/70 R14","185/65 R15"],"optional_tire_sizes":["195/55 R16","215/45 R17"],"wheel":{"pcd":"5x100","center_bore":"57.1","et":"38-51","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-tiguan-i-5n","make":"Volkswagen","model":"Tiguan","generation":"I (5N)","year_from":2007,"year_to":2016,"vehicle_type":"suv","factory_tire_sizes":["215/65 R16","215/60 R17"],"optional_tire_sizes":["235/55 R17","235/50 R18","235/45 R19"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"33-43","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-tiguan-ii-adbw","make":"Volkswagen","model":"Tiguan","generation":"II (AD/BW)","year_from":2016,"year_to":2024,"vehicle_type":"suv","factory_tire_sizes":["215/65 R17","235/55 R18"],"optional_tire_sizes":["235/50 R19","235/45 R20"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"38-43","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-touareg-i-7l","make":"Volkswagen","model":"Touareg","generation":"I (7L)","year_from":2002,"year_to":2010,"vehicle_type":"suv","factory_tire_sizes":["255/60 R17","255/55 R18"],"optional_tire_sizes":["275/45 R19","275/40 R20"],"wheel":{"pcd":"5x130","center_bore":"71.6","et":"53-59","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-touareg-ii-7p","make":"Volkswagen","model":"Touareg","generation":"II (7P)","year_from":2010,"year_to":2018,"vehicle_type":"suv","factory_tire_sizes":["255/60 R18","255/55 R18"],"optional_tire_sizes":["265/50 R19","275/45 R19","275/40 R20"],"wheel":{"pcd":"5x130","center_bore":"71.6","et":"53-59","bolt_thread":"M14x1.5"},"verify_required":true},
-  {"id":"vw-touareg-iii-cr","make":"Volkswagen","model":"Touareg","generation":"III (CR)","year_from":2018,"year_to":2026,"vehicle_type":"suv","factory_tire_sizes":["235/65 R18","255/60 R18"],"optional_tire_sizes":["255/55 R19","285/45 R20","285/40 R21","285/35 R22"],"wheel":{"pcd":"5x112","center_bore":"66.6","et":"25-40","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-transporter-t5","make":"Volkswagen","model":"Transporter","generation":"T5","year_from":2003,"year_to":2015,"vehicle_type":"van","factory_tire_sizes":["205/65 R16C","215/65 R16C"],"optional_tire_sizes":["235/55 R17","255/45 R18"],"wheel":{"pcd":"5x120","center_bore":"65.1","et":"51-55","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"vw-transporter-t6","make":"Volkswagen","model":"Transporter","generation":"T6 / T6.1","year_from":2015,"year_to":2024,"vehicle_type":"van","factory_tire_sizes":["205/65 R16C","215/65 R16C"],"optional_tire_sizes":["235/55 R17","255/45 R18","255/40 R20"],"wheel":{"pcd":"5x120","center_bore":"65.1","et":"51-55","bolt_thread":"M14x1.5"},"verify_required":true},
-  {"id":"audi-a3-8p","make":"Audi","model":"A3","generation":"8P","year_from":2003,"year_to":2013,"vehicle_type":"cars","factory_tire_sizes":["195/65 R15","205/55 R16"],"optional_tire_sizes":["205/50 R17","225/45 R17","225/40 R18"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"47-50","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"audi-a3-8v","make":"Audi","model":"A3","generation":"8V","year_from":2012,"year_to":2020,"vehicle_type":"cars","factory_tire_sizes":["205/55 R16","205/50 R17","225/45 R17"],"optional_tire_sizes":["225/40 R18","235/35 R19"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"47-48","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"audi-a4-b7-8e","make":"Audi","model":"A4","generation":"B7 (8E)","year_from":2004,"year_to":2008,"vehicle_type":"cars","factory_tire_sizes":["195/65 R15","205/55 R16"],"optional_tire_sizes":["225/50 R16","235/45 R17","235/40 R18"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"37-45","bolt_thread":"M14x1.5"},"verify_required":true},
-  {"id":"audi-a4-b8-8k","make":"Audi","model":"A4","generation":"B8 (8K)","year_from":2007,"year_to":2015,"vehicle_type":"cars","factory_tire_sizes":["205/60 R16","225/50 R17"],"optional_tire_sizes":["245/45 R17","245/40 R18","255/35 R19"],"wheel":{"pcd":"5x112","center_bore":"66.6","et":"39-47","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"audi-a4-b9-8w","make":"Audi","model":"A4","generation":"B9 (8W)","year_from":2015,"year_to":2020,"vehicle_type":"cars","factory_tire_sizes":["205/60 R16","225/50 R17"],"optional_tire_sizes":["245/40 R18","245/35 R19","255/35 R19"],"wheel":{"pcd":"5x112","center_bore":"66.6","et":"35-47","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"audi-a6-c6-4f","make":"Audi","model":"A6","generation":"C6 (4F)","year_from":2004,"year_to":2011,"vehicle_type":"cars","factory_tire_sizes":["205/60 R16","225/55 R16"],"optional_tire_sizes":["225/55 R17","245/45 R17","245/40 R18"],"wheel":{"pcd":"5x112","center_bore":"57.1","et":"37-45","bolt_thread":"M14x1.5"},"verify_required":true},
-  {"id":"audi-a6-c7-4g","make":"Audi","model":"A6","generation":"C7 (4G)","year_from":2011,"year_to":2018,"vehicle_type":"cars","factory_tire_sizes":["225/55 R17","225/50 R18"],"optional_tire_sizes":["245/45 R18","245/40 R19","255/40 R19","255/35 R20"],"wheel":{"pcd":"5x112","center_bore":"66.6","et":"39-45","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"audi-a6-c8-4k","make":"Audi","model":"A6","generation":"C8 (4K)","year_from":2018,"year_to":2023,"vehicle_type":"cars","factory_tire_sizes":["225/55 R17","225/50 R18"],"optional_tire_sizes":["245/45 R18","245/40 R19","255/40 R20","255/35 R21"],"wheel":{"pcd":"5x112","center_bore":"66.6","et":"35-45","bolt_thread":"M14x1.5"},"verify_required":true},
-  {"id":"audi-q3-8u","make":"Audi","model":"Q3","generation":"8U","year_from":2011,"year_to":2018,"vehicle_type":"suv","factory_tire_sizes":["215/65 R16","215/60 R17"],"optional_tire_sizes":["235/55 R17","235/50 R18","255/45 R18","255/40 R19","255/35 R20"],"wheel":{"pcd":"5x112","center_bore":"66.5","et":"31-45","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"audi-q3-f3","make":"Audi","model":"Q3","generation":"F3","year_from":2018,"year_to":2025,"vehicle_type":"suv","factory_tire_sizes":["215/65 R17"],"optional_tire_sizes":["235/55 R18","235/50 R19","255/45 R19","255/40 R20"],"wheel":{"pcd":"5x112","center_bore":"66.5","et":"38-43","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"audi-q5-8r","make":"Audi","model":"Q5","generation":"8R","year_from":2008,"year_to":2016,"vehicle_type":"suv","factory_tire_sizes":["235/65 R17","235/60 R18"],"optional_tire_sizes":["235/55 R19","255/45 R20"],"wheel":{"pcd":"5x112","center_bore":"66.5","et":"33-41","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"audi-q5-fy","make":"Audi","model":"Q5","generation":"FY","year_from":2016,"year_to":2024,"vehicle_type":"suv","factory_tire_sizes":["235/65 R17","235/60 R18"],"optional_tire_sizes":["235/55 R19","255/50 R19","255/45 R20","255/40 R21"],"wheel":{"pcd":"5x112","center_bore":"66.5","et":"34-41","bolt_thread":"M14x1.5"},"verify_required":false},
-  {"id":"audi-q7-4l","make":"Audi","model":"Q7","generation":"4L","year_from":2005,"year_to":2015,"vehicle_type":"suv","factory_tire_sizes":["235/65 R17","255/60 R18"],"optional_tire_sizes":["275/45 R19","275/40 R20","275/40 R21","295/35 R21"],"wheel":{"pcd":"5x130","center_bore":"71.6","et":"43-50","bolt_thread":"M14x1.5"},"verify_required":true},
-  {"id":"audi-q7-4m","make":"Audi","model":"Q7","generation":"4M","year_from":2015,"year_to":2026,"vehicle_type":"suv","factory_tire_sizes":["255/60 R18","255/55 R19"],"optional_tire_sizes":["285/45 R20","285/40 R21","285/35 R22"],"wheel":{"pcd":"5x112","center_bore":"66.5","et":null,"bolt_thread":"M14x1.5"},"verify_required":true},
-  {"id":"bmw-3-e90","make":"BMW","model":"3 Series","generation":"E90/E91/E92/E93","year_from":2005,"year_to":2013,"vehicle_type":"cars","factory_tire_sizes":["205/55 R16","225/45 R17"],"optional_tire_sizes":["225/40 R18 / 255/35 R18 (staggered)","235/35 R19 / 265/30 R19 (staggered)"],"wheel":{"pcd":"5x120","center_bore":"72.5","et":"30-40","bolt_thread":"M12x1.5"},"verify_required":false},
-  {"id":"bmw-3-f30","make":"BMW","model":"3 Series","generation":"F30/F31/F34","year_from":2011,"year_to":2019,"vehicle_type":"cars","factory_tire_sizes":["205/60 R16","225/50 R17"],"optional_tire_sizes":["225/45 R18 / 255/40 R18 (staggered)","225/40 R19 / 255/35 R19 (staggered)"],"wheel":{"pcd":"5x120","center_bore":"72.6","et":"31-37","bolt_thread":"M14x1.25"},"verify_required":false},
-  {"id":"bmw-3-g20","make":"BMW","model":"3 Series","generation":"G20/G21","year_from":2019,"year_to":2026,"vehicle_type":"cars","factory_tire_sizes":["225/50 R17","225/45 R18"],"optional_tire_sizes":["225/45 R18 / 255/40 R18 (staggered)","225/40 R19 / 255/35 R19 (staggered)"],"wheel":{"pcd":"5x112","center_bore":"66.6","et":"34-37","bolt_thread":"M14x1.25"},"verify_required":false},
-  {"id":"bmw-5-e60","make":"BMW","model":"5 Series","generation":"E60/E61","year_from":2003,"year_to":2010,"vehicle_type":"cars","factory_tire_sizes":["225/55 R16","225/50 R17"],"optional_tire_sizes":["245/45 R17","245/40 R18 / 275/35 R18 (staggered)","245/35 R19 / 275/30 R19 (staggered)"],"wheel":{"pcd":"5x120","center_bore":"72.6","et":"20-30","bolt_thread":"M12x1.5"},"verify_required":true},
-  {"id":"bmw-5-f10","make":"BMW","model":"5 Series","generation":"F10/F11","year_from":2009,"year_to":2017,"vehicle_type":"cars","factory_tire_sizes":["225/55 R17","225/50 R17"],"optional_tire_sizes":["245/45 R18 / 275/40 R18 (staggered)","245/40 R19 / 275/35 R19 (staggered)"],"wheel":{"pcd":"5x120","center_bore":"72.6","et":"20-30","bolt_thread":"M14x1.25"},"verify_required":false},
-  {"id":"bmw-5-g30","make":"BMW","model":"5 Series","generation":"G30/G31","year_from":2016,"year_to":2024,"vehicle_type":"cars","factory_tire_sizes":["225/55 R17","245/45 R18"],"optional_tire_sizes":["245/45 R18 / 275/40 R18 (staggered)","245/40 R19 / 275/35 R19 (staggered)","245/35 R20 / 275/35 R20 (staggered)"],"wheel":{"pcd":"5x112","center_bore":"66.6","et":"30-45","bolt_thread":"M14x1.25"},"verify_required":false},
-  {"id":"bmw-x1-e84","make":"BMW","model":"X1","generation":"E84","year_from":2009,"year_to":2015,"vehicle_type":"suv","factory_tire_sizes":["225/50 R17","225/45 R18"],"optional_tire_sizes":["225/40 R19"],"wheel":{"pcd":"5x120","center_bore":"72.6","et":"30-34","bolt_thread":"M14x1.25"},"verify_required":true},
-  {"id":"bmw-x1-f48","make":"BMW","model":"X1","generation":"F48","year_from":2015,"year_to":2022,"vehicle_type":"suv","factory_tire_sizes":["225/55 R17","225/50 R18"],"optional_tire_sizes":["225/45 R19","245/45 R19"],"wheel":{"pcd":"5x112","center_bore":"66.6","et":"38-48","bolt_thread":"M14x1.25"},"verify_required":true},
-  {"id":"bmw-x3-e83","make":"BMW","model":"X3","generation":"E83","year_from":2003,"year_to":2010,"vehicle_type":"suv","factory_tire_sizes":["235/55 R17","235/50 R18"],"optional_tire_sizes":["245/45 R19"],"wheel":{"pcd":"5x120","center_bore":"72.6","et":"46-48","bolt_thread":"M12x1.5"},"verify_required":true},
-  {"id":"bmw-x3-f25","make":"BMW","model":"X3","generation":"F25","year_from":2010,"year_to":2017,"vehicle_type":"suv","factory_tire_sizes":["225/60 R17","245/50 R18"],"optional_tire_sizes":["245/45 R19 / 275/40 R19 (staggered)","245/40 R20 / 275/35 R20 (staggered)"],"wheel":{"pcd":"5x120","center_bore":"72.6","et":"38-48","bolt_thread":"M14x1.25"},"verify_required":true},
-  {"id":"bmw-x3-g01","make":"BMW","model":"X3","generation":"G01","year_from":2017,"year_to":2026,"vehicle_type":"suv","factory_tire_sizes":["225/60 R18","245/50 R19"],"optional_tire_sizes":["245/45 R20 / 275/40 R20 (staggered)","245/40 R21 / 275/35 R21 (staggered)"],"wheel":{"pcd":"5x112","center_bore":"66.6","et":"27-40","bolt_thread":"M14x1.25"},"verify_required":true},
-  {"id":"bmw-x5-e70","make":"BMW","model":"X5","generation":"E70","year_from":2006,"year_to":2013,"vehicle_type":"suv","factory_tire_sizes":["255/55 R18","255/50 R19"],"optional_tire_sizes":["255/50 R19 / 285/45 R19 (staggered)","275/40 R20 / 315/35 R20 (staggered)"],"wheel":{"pcd":"5x120","center_bore":"72.6","et":"30-48","bolt_thread":"M14x1.5"},"verify_required":true},
-  {"id":"bmw-x5-f15","make":"BMW","model":"X5","generation":"F15","year_from":2013,"year_to":2018,"vehicle_type":"suv","factory_tire_sizes":["255/55 R18","255/50 R19"],"optional_tire_sizes":["255/50 R19 / 285/45 R19 (staggered)","275/40 R20 / 315/35 R20 (staggered)","265/40 R21 / 295/35 R21 (staggered)"],"wheel":{"pcd":"5x120","center_bore":"72.6","et":"35-40","bolt_thread":"M14x1.5"},"verify_required":true},
-  {"id":"bmw-x5-g05","make":"BMW","model":"X5","generation":"G05","year_from":2018,"year_to":2026,"vehicle_type":"suv","factory_tire_sizes":["265/50 R19"],"optional_tire_sizes":["265/45 R20 / 275/45 R20 (staggered)","275/40 R21 / 315/35 R21 (staggered)","275/35 R22 / 315/30 R22 (staggered)"],"wheel":{"pcd":"5x112","center_bore":"66.6","et":"38","bolt_thread":"M14x1.25"},"verify_required":false}
+{
+"id": "vw-golf-v-1k",
+"make": "Volkswagen",
+"model": "Golf",
+"generation": "V (1K)",
+"year_from": 2003,
+"year_to": 2009,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"195/65 R15",
+"205/55 R16"
+],
+"optional_tire_sizes": [
+"225/45 R17",
+"225/40 R18"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "45-50",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-golf-vi-5k",
+"make": "Volkswagen",
+"model": "Golf",
+"generation": "VI (5K)",
+"year_from": 2008,
+"year_to": 2012,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"195/65 R15",
+"205/55 R16"
+],
+"optional_tire_sizes": [
+"225/45 R17",
+"225/40 R18"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "45-50",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-golf-vii-5g",
+"make": "Volkswagen",
+"model": "Golf",
+"generation": "VII (5G)",
+"year_from": 2012,
+"year_to": 2020,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"195/65 R15",
+"205/55 R16",
+"225/45 R17"
+],
+"optional_tire_sizes": [
+"225/40 R18",
+"225/35 R19"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "45-51",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-golf-viii-cd",
+"make": "Volkswagen",
+"model": "Golf",
+"generation": "VIII (CD)",
+"year_from": 2019,
+"year_to": 2026,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/55 R16",
+"225/45 R17"
+],
+"optional_tire_sizes": [
+"205/50 R17",
+"225/40 R18",
+"235/35 R19"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "45-50",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-passat-b6-3c",
+"make": "Volkswagen",
+"model": "Passat",
+"generation": "B6 (3C)",
+"year_from": 2005,
+"year_to": 2010,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/55 R16",
+"215/55 R16"
+],
+"optional_tire_sizes": [
+"235/45 R17",
+"235/40 R18"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "42-45",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-passat-b7-36",
+"make": "Volkswagen",
+"model": "Passat",
+"generation": "B7 (36)",
+"year_from": 2010,
+"year_to": 2015,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/55 R16",
+"215/55 R16"
+],
+"optional_tire_sizes": [
+"205/50 R17",
+"235/45 R17",
+"235/40 R18"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "42-47",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-passat-b8-3g",
+"make": "Volkswagen",
+"model": "Passat",
+"generation": "B8 (3G)",
+"year_from": 2014,
+"year_to": 2019,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"215/60 R16",
+"215/55 R17"
+],
+"optional_tire_sizes": [
+"235/45 R18",
+"235/40 R19"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "40-48",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-polo-5-6r6c",
+"make": "Volkswagen",
+"model": "Polo",
+"generation": "Mk5 (6R/6C)",
+"year_from": 2009,
+"year_to": 2017,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"185/70 R14",
+"185/60 R15"
+],
+"optional_tire_sizes": [
+"195/55 R16",
+"215/45 R16",
+"215/40 R17"
+],
+"wheel": {
+"pcd": "5x100",
+"center_bore": "57.1",
+"et": "35-44",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "vw-polo-6-aw",
+"make": "Volkswagen",
+"model": "Polo",
+"generation": "Mk6 (AW)",
+"year_from": 2017,
+"year_to": 2026,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"185/70 R14",
+"185/65 R15"
+],
+"optional_tire_sizes": [
+"195/55 R16",
+"215/45 R17"
+],
+"wheel": {
+"pcd": "5x100",
+"center_bore": "57.1",
+"et": "38-51",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-tiguan-i-5n",
+"make": "Volkswagen",
+"model": "Tiguan",
+"generation": "I (5N)",
+"year_from": 2007,
+"year_to": 2016,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"215/65 R16",
+"215/60 R17"
+],
+"optional_tire_sizes": [
+"235/55 R17",
+"235/50 R18",
+"235/45 R19"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "33-43",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-tiguan-ii-adbw",
+"make": "Volkswagen",
+"model": "Tiguan",
+"generation": "II (AD/BW)",
+"year_from": 2016,
+"year_to": 2024,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"215/65 R17",
+"235/55 R18"
+],
+"optional_tire_sizes": [
+"235/50 R19",
+"235/45 R20"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "38-43",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-touareg-i-7l",
+"make": "Volkswagen",
+"model": "Touareg",
+"generation": "I (7L)",
+"year_from": 2002,
+"year_to": 2010,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"255/60 R17",
+"255/55 R18"
+],
+"optional_tire_sizes": [
+"275/45 R19",
+"275/40 R20"
+],
+"wheel": {
+"pcd": "5x130",
+"center_bore": "71.6",
+"et": "53-59",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-touareg-ii-7p",
+"make": "Volkswagen",
+"model": "Touareg",
+"generation": "II (7P)",
+"year_from": 2010,
+"year_to": 2018,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"255/60 R18",
+"255/55 R18"
+],
+"optional_tire_sizes": [
+"265/50 R19",
+"275/45 R19",
+"275/40 R20"
+],
+"wheel": {
+"pcd": "5x130",
+"center_bore": "71.6",
+"et": "53-59",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "vw-touareg-iii-cr",
+"make": "Volkswagen",
+"model": "Touareg",
+"generation": "III (CR)",
+"year_from": 2018,
+"year_to": 2026,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"235/65 R18",
+"255/60 R18"
+],
+"optional_tire_sizes": [
+"255/55 R19",
+"285/45 R20",
+"285/40 R21",
+"285/35 R22"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "25-40",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-transporter-t5",
+"make": "Volkswagen",
+"model": "Transporter",
+"generation": "T5",
+"year_from": 2003,
+"year_to": 2015,
+"vehicle_type": "van",
+"factory_tire_sizes": [
+"205/65 R16C",
+"215/65 R16C"
+],
+"optional_tire_sizes": [
+"235/55 R17",
+"255/45 R18"
+],
+"wheel": {
+"pcd": "5x120",
+"center_bore": "65.1",
+"et": "51-55",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "vw-transporter-t6",
+"make": "Volkswagen",
+"model": "Transporter",
+"generation": "T6 / T6.1",
+"year_from": 2015,
+"year_to": 2024,
+"vehicle_type": "van",
+"factory_tire_sizes": [
+"205/65 R16C",
+"215/65 R16C"
+],
+"optional_tire_sizes": [
+"235/55 R17",
+"255/45 R18",
+"255/40 R20"
+],
+"wheel": {
+"pcd": "5x120",
+"center_bore": "65.1",
+"et": "51-55",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "audi-a3-8p",
+"make": "Audi",
+"model": "A3",
+"generation": "8P",
+"year_from": 2003,
+"year_to": 2013,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"195/65 R15",
+"205/55 R16"
+],
+"optional_tire_sizes": [
+"205/50 R17",
+"225/45 R17",
+"225/40 R18"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "47-50",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "audi-a3-8v",
+"make": "Audi",
+"model": "A3",
+"generation": "8V",
+"year_from": 2012,
+"year_to": 2020,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/55 R16",
+"205/50 R17",
+"225/45 R17"
+],
+"optional_tire_sizes": [
+"225/40 R18",
+"235/35 R19"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "47-48",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "audi-a4-b7-8e",
+"make": "Audi",
+"model": "A4",
+"generation": "B7 (8E)",
+"year_from": 2004,
+"year_to": 2008,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"195/65 R15",
+"205/55 R16"
+],
+"optional_tire_sizes": [
+"225/50 R16",
+"235/45 R17",
+"235/40 R18"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "37-45",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "audi-a4-b8-8k",
+"make": "Audi",
+"model": "A4",
+"generation": "B8 (8K)",
+"year_from": 2007,
+"year_to": 2015,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/60 R16",
+"225/50 R17"
+],
+"optional_tire_sizes": [
+"245/45 R17",
+"245/40 R18",
+"255/35 R19"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "39-47",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "audi-a4-b9-8w",
+"make": "Audi",
+"model": "A4",
+"generation": "B9 (8W)",
+"year_from": 2015,
+"year_to": 2020,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/60 R16",
+"225/50 R17"
+],
+"optional_tire_sizes": [
+"245/40 R18",
+"245/35 R19",
+"255/35 R19"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "35-47",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "audi-a6-c6-4f",
+"make": "Audi",
+"model": "A6",
+"generation": "C6 (4F)",
+"year_from": 2004,
+"year_to": 2011,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/60 R16",
+"225/55 R16"
+],
+"optional_tire_sizes": [
+"225/55 R17",
+"245/45 R17",
+"245/40 R18"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "37-45",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "audi-a6-c7-4g",
+"make": "Audi",
+"model": "A6",
+"generation": "C7 (4G)",
+"year_from": 2011,
+"year_to": 2018,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"225/55 R17",
+"225/50 R18"
+],
+"optional_tire_sizes": [
+"245/45 R18",
+"245/40 R19",
+"255/40 R19",
+"255/35 R20"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "39-45",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "audi-a6-c8-4k",
+"make": "Audi",
+"model": "A6",
+"generation": "C8 (4K)",
+"year_from": 2018,
+"year_to": 2023,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"225/55 R17",
+"225/50 R18"
+],
+"optional_tire_sizes": [
+"245/45 R18",
+"245/40 R19",
+"255/40 R20",
+"255/35 R21"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "35-45",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "audi-q3-8u",
+"make": "Audi",
+"model": "Q3",
+"generation": "8U",
+"year_from": 2011,
+"year_to": 2018,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"215/65 R16",
+"215/60 R17"
+],
+"optional_tire_sizes": [
+"235/55 R17",
+"235/50 R18",
+"255/45 R18",
+"255/40 R19",
+"255/35 R20"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.5",
+"et": "31-45",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "audi-q3-f3",
+"make": "Audi",
+"model": "Q3",
+"generation": "F3",
+"year_from": 2018,
+"year_to": 2025,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"215/65 R17"
+],
+"optional_tire_sizes": [
+"235/55 R18",
+"235/50 R19",
+"255/45 R19",
+"255/40 R20"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.5",
+"et": "38-43",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "audi-q5-8r",
+"make": "Audi",
+"model": "Q5",
+"generation": "8R",
+"year_from": 2008,
+"year_to": 2016,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"235/65 R17",
+"235/60 R18"
+],
+"optional_tire_sizes": [
+"235/55 R19",
+"255/45 R20"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.5",
+"et": "33-41",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "audi-q5-fy",
+"make": "Audi",
+"model": "Q5",
+"generation": "FY",
+"year_from": 2016,
+"year_to": 2024,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"235/65 R17",
+"235/60 R18"
+],
+"optional_tire_sizes": [
+"235/55 R19",
+"255/50 R19",
+"255/45 R20",
+"255/40 R21"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.5",
+"et": "34-41",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "audi-q7-4l",
+"make": "Audi",
+"model": "Q7",
+"generation": "4L",
+"year_from": 2005,
+"year_to": 2015,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"235/65 R17",
+"255/60 R18"
+],
+"optional_tire_sizes": [
+"275/45 R19",
+"275/40 R20",
+"275/40 R21",
+"295/35 R21"
+],
+"wheel": {
+"pcd": "5x130",
+"center_bore": "71.6",
+"et": "43-50",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "audi-q7-4m",
+"make": "Audi",
+"model": "Q7",
+"generation": "4M",
+"year_from": 2015,
+"year_to": 2026,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"255/60 R18",
+"255/55 R19"
+],
+"optional_tire_sizes": [
+"285/45 R20",
+"285/40 R21",
+"285/35 R22"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.5",
+"et": null,
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "bmw-3-e90",
+"make": "BMW",
+"model": "3 Series",
+"generation": "E90/E91/E92/E93",
+"year_from": 2005,
+"year_to": 2013,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/55 R16",
+"225/45 R17"
+],
+"optional_tire_sizes": [
+"225/40 R18 / 255/35 R18 (staggered)",
+"235/35 R19 / 265/30 R19 (staggered)"
+],
+"wheel": {
+"pcd": "5x120",
+"center_bore": "72.5",
+"et": "30-40",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": false
+},
+{
+"id": "bmw-3-f30",
+"make": "BMW",
+"model": "3 Series",
+"generation": "F30/F31/F34",
+"year_from": 2011,
+"year_to": 2019,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/60 R16",
+"225/50 R17"
+],
+"optional_tire_sizes": [
+"225/45 R18 / 255/40 R18 (staggered)",
+"225/40 R19 / 255/35 R19 (staggered)"
+],
+"wheel": {
+"pcd": "5x120",
+"center_bore": "72.6",
+"et": "31-37",
+"bolt_thread": "M14x1.25"
+},
+"verify_required": false
+},
+{
+"id": "bmw-3-g20",
+"make": "BMW",
+"model": "3 Series",
+"generation": "G20/G21",
+"year_from": 2019,
+"year_to": 2026,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"225/50 R17",
+"225/45 R18"
+],
+"optional_tire_sizes": [
+"225/45 R18 / 255/40 R18 (staggered)",
+"225/40 R19 / 255/35 R19 (staggered)"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "34-37",
+"bolt_thread": "M14x1.25"
+},
+"verify_required": false
+},
+{
+"id": "bmw-5-e60",
+"make": "BMW",
+"model": "5 Series",
+"generation": "E60/E61",
+"year_from": 2003,
+"year_to": 2010,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"225/55 R16",
+"225/50 R17"
+],
+"optional_tire_sizes": [
+"245/45 R17",
+"245/40 R18 / 275/35 R18 (staggered)",
+"245/35 R19 / 275/30 R19 (staggered)"
+],
+"wheel": {
+"pcd": "5x120",
+"center_bore": "72.6",
+"et": "20-30",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": true
+},
+{
+"id": "bmw-5-f10",
+"make": "BMW",
+"model": "5 Series",
+"generation": "F10/F11",
+"year_from": 2009,
+"year_to": 2017,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"225/55 R17",
+"225/50 R17"
+],
+"optional_tire_sizes": [
+"245/45 R18 / 275/40 R18 (staggered)",
+"245/40 R19 / 275/35 R19 (staggered)"
+],
+"wheel": {
+"pcd": "5x120",
+"center_bore": "72.6",
+"et": "20-30",
+"bolt_thread": "M14x1.25"
+},
+"verify_required": false
+},
+{
+"id": "bmw-5-g30",
+"make": "BMW",
+"model": "5 Series",
+"generation": "G30/G31",
+"year_from": 2016,
+"year_to": 2024,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"225/55 R17",
+"245/45 R18"
+],
+"optional_tire_sizes": [
+"245/45 R18 / 275/40 R18 (staggered)",
+"245/40 R19 / 275/35 R19 (staggered)",
+"245/35 R20 / 275/35 R20 (staggered)"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "30-45",
+"bolt_thread": "M14x1.25"
+},
+"verify_required": false
+},
+{
+"id": "bmw-x1-e84",
+"make": "BMW",
+"model": "X1",
+"generation": "E84",
+"year_from": 2009,
+"year_to": 2015,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"225/50 R17",
+"225/45 R18"
+],
+"optional_tire_sizes": [
+"225/40 R19"
+],
+"wheel": {
+"pcd": "5x120",
+"center_bore": "72.6",
+"et": "30-34",
+"bolt_thread": "M14x1.25"
+},
+"verify_required": true
+},
+{
+"id": "bmw-x1-f48",
+"make": "BMW",
+"model": "X1",
+"generation": "F48",
+"year_from": 2015,
+"year_to": 2022,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"225/55 R17",
+"225/50 R18"
+],
+"optional_tire_sizes": [
+"225/45 R19",
+"245/45 R19"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "38-48",
+"bolt_thread": "M14x1.25"
+},
+"verify_required": true
+},
+{
+"id": "bmw-x3-e83",
+"make": "BMW",
+"model": "X3",
+"generation": "E83",
+"year_from": 2003,
+"year_to": 2010,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"235/55 R17",
+"235/50 R18"
+],
+"optional_tire_sizes": [
+"245/45 R19"
+],
+"wheel": {
+"pcd": "5x120",
+"center_bore": "72.6",
+"et": "46-48",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": true
+},
+{
+"id": "bmw-x3-f25",
+"make": "BMW",
+"model": "X3",
+"generation": "F25",
+"year_from": 2010,
+"year_to": 2017,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"225/60 R17",
+"245/50 R18"
+],
+"optional_tire_sizes": [
+"245/45 R19 / 275/40 R19 (staggered)",
+"245/40 R20 / 275/35 R20 (staggered)"
+],
+"wheel": {
+"pcd": "5x120",
+"center_bore": "72.6",
+"et": "38-48",
+"bolt_thread": "M14x1.25"
+},
+"verify_required": true
+},
+{
+"id": "bmw-x3-g01",
+"make": "BMW",
+"model": "X3",
+"generation": "G01",
+"year_from": 2017,
+"year_to": 2026,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"225/60 R18",
+"245/50 R19"
+],
+"optional_tire_sizes": [
+"245/45 R20 / 275/40 R20 (staggered)",
+"245/40 R21 / 275/35 R21 (staggered)"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "27-40",
+"bolt_thread": "M14x1.25"
+},
+"verify_required": true
+},
+{
+"id": "bmw-x5-e70",
+"make": "BMW",
+"model": "X5",
+"generation": "E70",
+"year_from": 2006,
+"year_to": 2013,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"255/55 R18",
+"255/50 R19"
+],
+"optional_tire_sizes": [
+"255/50 R19 / 285/45 R19 (staggered)",
+"275/40 R20 / 315/35 R20 (staggered)"
+],
+"wheel": {
+"pcd": "5x120",
+"center_bore": "72.6",
+"et": "30-48",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "bmw-x5-f15",
+"make": "BMW",
+"model": "X5",
+"generation": "F15",
+"year_from": 2013,
+"year_to": 2018,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"255/55 R18",
+"255/50 R19"
+],
+"optional_tire_sizes": [
+"255/50 R19 / 285/45 R19 (staggered)",
+"275/40 R20 / 315/35 R20 (staggered)",
+"265/40 R21 / 295/35 R21 (staggered)"
+],
+"wheel": {
+"pcd": "5x120",
+"center_bore": "72.6",
+"et": "35-40",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "bmw-x5-g05",
+"make": "BMW",
+"model": "X5",
+"generation": "G05",
+"year_from": 2018,
+"year_to": 2026,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"265/50 R19"
+],
+"optional_tire_sizes": [
+"265/45 R20 / 275/45 R20 (staggered)",
+"275/40 R21 / 315/35 R21 (staggered)",
+"275/35 R22 / 315/30 R22 (staggered)"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "38",
+"bolt_thread": "M14x1.25"
+},
+"verify_required": false
+},
+{
+"id": "mercedes-c-class-w204",
+"make": "Mercedes-Benz",
+"model": "C-Class",
+"generation": "W204",
+"year_from": 2007,
+"year_to": 2014,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/55 R16",
+"225/50 R16",
+"225/45 R17"
+],
+"optional_tire_sizes": [
+"225/40 R18",
+"245/40 R18 / 255/35 R18 (staggered)"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "43-58",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "mercedes-c-class-w205",
+"make": "Mercedes-Benz",
+"model": "C-Class",
+"generation": "W205",
+"year_from": 2014,
+"year_to": 2021,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/60 R16",
+"225/50 R17",
+"225/45 R18"
+],
+"optional_tire_sizes": [
+"245/40 R18",
+"225/40 R19 / 255/35 R19 (staggered)"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "42-50",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "mercedes-c-class-w206",
+"make": "Mercedes-Benz",
+"model": "C-Class",
+"generation": "W206",
+"year_from": 2021,
+"year_to": 2027,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"225/50 R17",
+"225/45 R18"
+],
+"optional_tire_sizes": [
+"225/40 R19 / 255/35 R19 (staggered)"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "40-50",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "mercedes-e-class-w211",
+"make": "Mercedes-Benz",
+"model": "E-Class",
+"generation": "W211",
+"year_from": 2002,
+"year_to": 2009,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"215/55 R16",
+"245/45 R17"
+],
+"optional_tire_sizes": [
+"245/40 R18 / 265/35 R18 (staggered)"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "40-48",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "mercedes-e-class-w212",
+"make": "Mercedes-Benz",
+"model": "E-Class",
+"generation": "W212",
+"year_from": 2009,
+"year_to": 2016,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"225/55 R16",
+"245/45 R17"
+],
+"optional_tire_sizes": [
+"245/40 R18 / 265/35 R18 (staggered)"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "45-54",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "mercedes-e-class-w213",
+"make": "Mercedes-Benz",
+"model": "E-Class",
+"generation": "W213",
+"year_from": 2016,
+"year_to": 2023,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"245/45 R17",
+"245/45 R18"
+],
+"optional_tire_sizes": [
+"245/40 R19 / 275/35 R19 (staggered)"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "38-49",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "mercedes-glc-x253",
+"make": "Mercedes-Benz",
+"model": "GLC",
+"generation": "X253",
+"year_from": 2015,
+"year_to": 2022,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"235/65 R17",
+"235/60 R18"
+],
+"optional_tire_sizes": [
+"235/55 R19 / 255/50 R19 (staggered)",
+"255/45 R20"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "34-40",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "mercedes-glc-x254",
+"make": "Mercedes-Benz",
+"model": "GLC",
+"generation": "X254",
+"year_from": 2022,
+"year_to": 2026,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"235/60 R18",
+"235/55 R19"
+],
+"optional_tire_sizes": [
+"255/45 R20 / 285/40 R20 (staggered)",
+"255/40 R21 / 285/35 R21 (staggered)"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "20-40",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "mercedes-sprinter-w906",
+"make": "Mercedes-Benz",
+"model": "Sprinter",
+"generation": "W906",
+"year_from": 2006,
+"year_to": 2018,
+"vehicle_type": "van",
+"factory_tire_sizes": [
+"195/75 R16C",
+"235/65 R16C"
+],
+"optional_tire_sizes": [
+"205/75 R16C",
+"245/75 R16C"
+],
+"wheel": {
+"pcd": "6x130",
+"center_bore": "84.1",
+"et": "50-62",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "mercedes-sprinter-w907",
+"make": "Mercedes-Benz",
+"model": "Sprinter",
+"generation": "W907",
+"year_from": 2018,
+"year_to": 2026,
+"vehicle_type": "van",
+"factory_tire_sizes": [
+"225/75 R16C",
+"235/65 R16C"
+],
+"optional_tire_sizes": [
+"265/60 R18"
+],
+"wheel": {
+"pcd": "6x130",
+"center_bore": "84.1",
+"et": "52-62",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "mercedes-vito-w639",
+"make": "Mercedes-Benz",
+"model": "Vito",
+"generation": "W639",
+"year_from": 2003,
+"year_to": 2014,
+"vehicle_type": "van",
+"factory_tire_sizes": [
+"195/65 R16C",
+"205/65 R16C"
+],
+"optional_tire_sizes": [
+"225/60 R16C",
+"225/55 R17"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "50-60",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "mercedes-vito-w447",
+"make": "Mercedes-Benz",
+"model": "Vito",
+"generation": "W447",
+"year_from": 2015,
+"year_to": 2024,
+"vehicle_type": "van",
+"factory_tire_sizes": [
+"195/65 R16C",
+"205/65 R16C"
+],
+"optional_tire_sizes": [
+"225/55 R17C",
+"235/55 R17",
+"245/45 R18"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "66.6",
+"et": "48-52",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "skoda-octavia-a5-1z",
+"make": "Škoda",
+"model": "Octavia",
+"generation": "A5 (1Z)",
+"year_from": 2004,
+"year_to": 2013,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"195/65 R15",
+"205/55 R16"
+],
+"optional_tire_sizes": [
+"205/50 R17",
+"225/45 R17"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "45-54",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "skoda-octavia-a7-5e",
+"make": "Škoda",
+"model": "Octavia",
+"generation": "A7 (5E)",
+"year_from": 2013,
+"year_to": 2020,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"195/65 R15",
+"205/55 R16",
+"225/45 R17"
+],
+"optional_tire_sizes": [
+"205/50 R17",
+"225/40 R18"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "45-54",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "skoda-octavia-a8-nx",
+"make": "Škoda",
+"model": "Octavia",
+"generation": "A8 (NX)",
+"year_from": 2020,
+"year_to": 2024,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/60 R16",
+"205/55 R17",
+"225/45 R17"
+],
+"optional_tire_sizes": [
+"225/40 R18",
+"235/40 R19"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "40-50",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "skoda-fabia-mk2-5j",
+"make": "Škoda",
+"model": "Fabia",
+"generation": "Mk2 (5J)",
+"year_from": 2007,
+"year_to": 2014,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"185/60 R15",
+"195/55 R15"
+],
+"optional_tire_sizes": [
+"205/45 R16",
+"215/45 R16"
+],
+"wheel": {
+"pcd": "5x100",
+"center_bore": "57.1",
+"et": "35-45",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "skoda-fabia-mk3-nj",
+"make": "Škoda",
+"model": "Fabia",
+"generation": "Mk3 (NJ)",
+"year_from": 2015,
+"year_to": 2021,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"185/60 R15",
+"215/45 R16"
+],
+"optional_tire_sizes": [
+"215/40 R17"
+],
+"wheel": {
+"pcd": "5x100",
+"center_bore": "57.1",
+"et": "38-48",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "skoda-fabia-mk4-pj",
+"make": "Škoda",
+"model": "Fabia",
+"generation": "Mk4 (PJ)",
+"year_from": 2021,
+"year_to": 2027,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"185/65 R15",
+"195/55 R16"
+],
+"optional_tire_sizes": [
+"185/60 R16",
+"215/45 R17"
+],
+"wheel": {
+"pcd": "5x100",
+"center_bore": "57.1",
+"et": "40-51",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "skoda-superb-b6-3t",
+"make": "Škoda",
+"model": "Superb",
+"generation": "B6 (3T)",
+"year_from": 2008,
+"year_to": 2015,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/55 R16",
+"215/55 R16"
+],
+"optional_tire_sizes": [
+"235/45 R17",
+"235/40 R18"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "41-50",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "skoda-superb-b8-3v",
+"make": "Škoda",
+"model": "Superb",
+"generation": "B8 (3V)",
+"year_from": 2015,
+"year_to": 2023,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"215/60 R16",
+"215/55 R17"
+],
+"optional_tire_sizes": [
+"235/45 R18",
+"235/40 R19"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "40-50",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "skoda-kodiaq-ns7",
+"make": "Škoda",
+"model": "Kodiaq",
+"generation": "NS7",
+"year_from": 2016,
+"year_to": 2024,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"215/65 R17",
+"235/55 R18"
+],
+"optional_tire_sizes": [
+"235/50 R19",
+"235/45 R20"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "33-43",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": true
+},
+{
+"id": "skoda-karoq-nu7",
+"make": "Škoda",
+"model": "Karoq",
+"generation": "NU7",
+"year_from": 2017,
+"year_to": 2026,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"215/60 R16",
+"215/55 R17"
+],
+"optional_tire_sizes": [
+"215/50 R18",
+"225/45 R19"
+],
+"wheel": {
+"pcd": "5x112",
+"center_bore": "57.1",
+"et": "38-43",
+"bolt_thread": "M14x1.5"
+},
+"verify_required": false
+},
+{
+"id": "toyota-corolla-e140-e150",
+"make": "Toyota",
+"model": "Corolla",
+"generation": "E140/E150",
+"year_from": 2007,
+"year_to": 2013,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"195/65 R15",
+"205/55 R16"
+],
+"optional_tire_sizes": [
+"215/45 R17",
+"225/45 R17"
+],
+"wheel": {
+"pcd": "5x100",
+"center_bore": "54.1",
+"et": "39-45",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": true
+},
+{
+"id": "toyota-corolla-e170",
+"make": "Toyota",
+"model": "Corolla",
+"generation": "E170/E180",
+"year_from": 2013,
+"year_to": 2019,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"195/65 R15",
+"205/55 R16",
+"215/45 R17"
+],
+"optional_tire_sizes": [
+"225/40 R18"
+],
+"wheel": {
+"pcd": "5x100",
+"center_bore": "54.1",
+"et": "39-45",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": true
+},
+{
+"id": "toyota-corolla-e210",
+"make": "Toyota",
+"model": "Corolla",
+"generation": "E210",
+"year_from": 2019,
+"year_to": 2026,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"195/65 R15",
+"205/55 R16",
+"225/45 R17"
+],
+"optional_tire_sizes": [
+"205/50 R17",
+"225/40 R18"
+],
+"wheel": {
+"pcd": "5x114.3",
+"center_bore": "60.1",
+"et": "38-42",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": true
+},
+{
+"id": "toyota-camry-xv40",
+"make": "Toyota",
+"model": "Camry",
+"generation": "XV40",
+"year_from": 2006,
+"year_to": 2011,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"215/60 R16"
+],
+"optional_tire_sizes": [
+"215/55 R17",
+"225/45 R18"
+],
+"wheel": {
+"pcd": "5x114.3",
+"center_bore": "60.1",
+"et": "45",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": false
+},
+{
+"id": "toyota-camry-xv50",
+"make": "Toyota",
+"model": "Camry",
+"generation": "XV50",
+"year_from": 2011,
+"year_to": 2017,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"215/60 R16",
+"215/55 R17"
+],
+"optional_tire_sizes": [
+"225/45 R18"
+],
+"wheel": {
+"pcd": "5x114.3",
+"center_bore": "60.1",
+"et": "45",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": false
+},
+{
+"id": "toyota-camry-xv70",
+"make": "Toyota",
+"model": "Camry",
+"generation": "XV70",
+"year_from": 2017,
+"year_to": 2024,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"205/65 R16",
+"215/55 R17",
+"235/45 R18"
+],
+"optional_tire_sizes": [
+"235/40 R19"
+],
+"wheel": {
+"pcd": "5x114.3",
+"center_bore": "60.1",
+"et": "40-45",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": true
+},
+{
+"id": "toyota-rav4-xa30",
+"make": "Toyota",
+"model": "RAV4",
+"generation": "XA30",
+"year_from": 2005,
+"year_to": 2012,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"215/70 R16",
+"225/65 R17"
+],
+"optional_tire_sizes": [
+"235/55 R18"
+],
+"wheel": {
+"pcd": "5x114.3",
+"center_bore": "60.1",
+"et": "35-45",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": true
+},
+{
+"id": "toyota-rav4-xa40",
+"make": "Toyota",
+"model": "RAV4",
+"generation": "XA40",
+"year_from": 2012,
+"year_to": 2018,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"225/65 R17",
+"235/55 R18"
+],
+"optional_tire_sizes": [
+"235/60 R18"
+],
+"wheel": {
+"pcd": "5x114.3",
+"center_bore": "60.1",
+"et": "39-45",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": false
+},
+{
+"id": "toyota-rav4-xa50",
+"make": "Toyota",
+"model": "RAV4",
+"generation": "XA50",
+"year_from": 2019,
+"year_to": 2026,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"225/65 R17",
+"225/60 R18"
+],
+"optional_tire_sizes": [
+"235/55 R19"
+],
+"wheel": {
+"pcd": "5x114.3",
+"center_bore": "60.1",
+"et": "35-45",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": false
+},
+{
+"id": "toyota-yaris-xp90",
+"make": "Toyota",
+"model": "Yaris",
+"generation": "XP90",
+"year_from": 2005,
+"year_to": 2011,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"175/65 R14",
+"185/60 R15"
+],
+"optional_tire_sizes": [
+"195/50 R16"
+],
+"wheel": {
+"pcd": "4x100",
+"center_bore": "54.1",
+"et": "35-45",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": true
+},
+{
+"id": "toyota-yaris-xp130",
+"make": "Toyota",
+"model": "Yaris",
+"generation": "XP130",
+"year_from": 2011,
+"year_to": 2020,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"175/65 R15",
+"185/60 R15"
+],
+"optional_tire_sizes": [
+"195/50 R16",
+"205/45 R17"
+],
+"wheel": {
+"pcd": "4x100",
+"center_bore": "54.1",
+"et": "35-45",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": true
+},
+{
+"id": "toyota-yaris-xp210",
+"make": "Toyota",
+"model": "Yaris",
+"generation": "XP210",
+"year_from": 2019,
+"year_to": 2026,
+"vehicle_type": "cars",
+"factory_tire_sizes": [
+"185/65 R15",
+"195/55 R16"
+],
+"optional_tire_sizes": [
+"205/45 R17"
+],
+"wheel": {
+"pcd": "5x100",
+"center_bore": "54.1",
+"et": "35-45",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": true
+},
+{
+"id": "toyota-lc-prado-120",
+"make": "Toyota",
+"model": "Land Cruiser Prado",
+"generation": "120",
+"year_from": 2002,
+"year_to": 2009,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"245/70 R16",
+"265/65 R17"
+],
+"optional_tire_sizes": [
+"225/75 R16",
+"265/60 R18"
+],
+"wheel": {
+"pcd": "6x139.7",
+"center_bore": "106.1",
+"et": "20-30",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": false
+},
+{
+"id": "toyota-lc-prado-150",
+"make": "Toyota",
+"model": "Land Cruiser Prado",
+"generation": "150",
+"year_from": 2009,
+"year_to": 2024,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"265/65 R17",
+"265/60 R18"
+],
+"optional_tire_sizes": [
+"245/70 R17",
+"275/50 R20"
+],
+"wheel": {
+"pcd": "6x139.7",
+"center_bore": "106.1",
+"et": "25",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": false
+},
+{
+"id": "toyota-hilux-an20-an30",
+"make": "Toyota",
+"model": "Hilux",
+"generation": "AN20/AN30",
+"year_from": 2005,
+"year_to": 2015,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"205 R16C",
+"265/65 R17"
+],
+"optional_tire_sizes": [
+"255/70 R16",
+"265/70 R16"
+],
+"wheel": {
+"pcd": "6x139.7",
+"center_bore": "106.1",
+"et": "8-30",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": true
+},
+{
+"id": "toyota-hilux-an120-an130",
+"make": "Toyota",
+"model": "Hilux",
+"generation": "AN120/AN130",
+"year_from": 2015,
+"year_to": 2020,
+"vehicle_type": "suv",
+"factory_tire_sizes": [
+"205 R16C",
+"265/65 R17",
+"265/60 R18"
+],
+"optional_tire_sizes": [
+"225/70 R17"
+],
+"wheel": {
+"pcd": "6x139.7",
+"center_bore": "106.1",
+"et": "25-30",
+"bolt_thread": "M12x1.5"
+},
+"verify_required": false
+}
 ]
